@@ -1,0 +1,74 @@
+.grid-container {
+  display: grid;
+  background-color: yellow;
+  grid-column-gap: 4px;
+  grid-row-gap: 4px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 100;
+  background-color: white;
+  padding: 20px;
+}
+
+.item2 {
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 100;
+  background-color: white;
+  padding: 20px;
+}
+
+.item3 {
+  grid-column-start: 8;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 100;
+  background-color: white;
+  padding: 20px;
+}
+
+.item4 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 100;
+  grid-row-end: 200;
+  background-color: white;
+  padding: 20px;
+}
+.item6 {
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 100;
+  grid-row-end: 200;
+  background-color: white;
+  padding: 20px;
+}
+.item5 {
+  grid-column-start: 9;
+  grid-column-end: 12;
+  grid-row-start: 100;
+  grid-row-end: 200;
+  background-color: white;
+  padding: 20px;
+}
+.center {
+  position: absolute;
+  width: 450px;
+}
+.center1 {
+  position: absolute;
+  width: 500px;
+}
+.center2 {
+  position: absolute;
+  width: 600px;
+}
+.center3 {
+  position: absolute;
+  width: 900px;
+}
